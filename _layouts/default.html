@@ -1,33 +1,34 @@
-﻿<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css">
-
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
   </head>
+
+
   <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+    </nav>
+<div class="container">
 
-      <header>
-        <h1>GitHub Pages for Melinda Higgins, Ph.D.</h1>
-        <p>Melinda Higgins Biostatistician and Chemometrician</p>
-      </header>
+  {{ content }}
 
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/melindahiggins2000" class="button fork"><strong>View On GitHub</strong></a>
-      </div><!-- end banner -->
-
-      <div class="container">
-
-        {{ content }}
-			
-      </div><!-- /.container -->
-   
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>    
+</div>
+  
+  <footer>
+   <ul>
+   <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+   <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+   </ul>
+  </footer>
   </body>
+
 </html>
